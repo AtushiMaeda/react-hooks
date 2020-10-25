@@ -4,7 +4,7 @@ const OperationLog = ({ operationLog }) => {
   return (
     <tr>
       <td>{operationLog.description}</td>
-      <td>{operationLog.peratedAt}</td>
+      <td>{operationLog.operatedAt}</td>
     </tr>
   )
 }
